@@ -1,0 +1,22 @@
+NAME
+    CGIS::Application - Session supported CGI::Application
+
+SYNOPSIS
+      use base 'CGIS::Application';
+
+DESCRIPTION
+    This is a drop-in replacement for CGI::Application to enable session
+    support in your programs. Refer to the CGI::Application manpage as well
+    as the CGIS manpage manuals.
+
+METHODS
+    Inherits from CGI::Application and CGIS in the given order. So all the
+    methods of CGIS as well as CGI::Application will be available for you.
+
+AUTHOR
+    Sherzod B. Ruzmetov, <sherzodr@cpan.org>
+
+SEE ALSO
+    the CGI::Session manpage, the CGI::Application manpage, the CGIS
+    manpage, the CGI manpage
+
